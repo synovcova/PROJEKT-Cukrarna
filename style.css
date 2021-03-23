@@ -29,7 +29,201 @@ html { box-sizing: border-box; }
 */
 
 
+
 body {
-	margin: 0;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	padding:0;
+	margin:0;
+	color:#242424;
+
 }
 
+header img{
+	height: 110px;
+	padding: 30px 0 30px 0;
+}
+
+header{
+	max-width: 1100px;
+	margin-left:auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+header ul li{
+	display: inline-block;
+	padding:15px 10px;
+	text-decoration: none;
+	color: #242424;
+
+}
+
+header  a{
+    display: inline-block;
+    color: #1f6466;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+header a:hover,
+header a:focus,
+header a:active {
+    background-color: #d2567d;
+	border-radius: 30px;
+	color: white;
+}
+
+.left a {
+    text-decoration: none;
+    padding: 15px 40px;
+	background-color: #f195b2;
+	border-radius: 30px;
+	color: white;
+	margin-top: 20px;
+}
+.left-text{
+	padding-bottom: 50px;
+}
+.left a:hover,
+.left a:focus,
+.left a:active {
+    background-color: #d2567d;
+	border-radius: 30px;
+	color: white;
+	margin-top: 20px;
+}
+
+
+
+.hero {
+	padding-top: 80px;
+	background-image: url(images/cupcake.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	color:white	;
+	font-size: 24px;
+	height: 500px;
+
+}
+
+.hero p {
+	color: white;
+	max-width: 1100px;
+	margin-left:auto;
+	margin-right: auto;
+	padding-right: 40%;
+	font-style: italic;
+}
+
+.hero h1{
+	max-width: 1100px;
+	margin-left:auto;
+	margin-right: auto;
+	font-family:'Playfair Display', serif;
+	font-size: 52px;
+	color: white;
+	padding-right: 40%;
+}
+
+
+.welcome{
+	display: flex;
+	justify-content: center;
+	max-width: 1100px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+
+}
+
+.right img{
+	border-radius: 5px;
+}
+
+.list-background{
+	background-color: #f0f0f0;
+	color: #3e606b;
+}
+
+.list{
+	max-width: 1100px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 0;
+	padding-bottom: 80px;
+	padding-top:80px;
+	
+}
+
+.list-product{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+h2{
+	font-size: 36px;
+	font-family: 'Playfair Display', serif;
+	color:#3e606b;
+	margin:0;
+}
+ 
+h3{
+	color:#3e606b;
+}
+
+p{
+	color:#242424;
+}
+
+.cake{
+	padding-bottom: 20px;
+	background-color: white;
+	border-radius: 5%;
+	margin:15px;
+	text-align: center;
+}
+
+.cake img {
+	max-width: 100%;
+	border-radius: 5px 5px 0 0;
+
+}
+
+article{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+	padding-top:80px;
+}
+
+article img{
+
+	max-width: 50%;
+	border-radius: 5px;
+}
+
+.right-article{
+	padding-left: 30px;
+}
+
+
+footer{ 
+	background-color: #303339;
+	margin:0;
+	padding: 30px 0 30px 0;
+	text-align: center;
+	color:white;
+}
+
+footer p{
+	color:white;
+}
